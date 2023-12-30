@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 function Movie({title, id, poster_path, release_date}) {
-    const imagePath = "https://image.tmdb.org/t/p/original"
+  const imagePath = "https://image.tmdb.org/t/p/original"
   return (
     <div>
         <h1>{title}</h1>
